@@ -51,6 +51,8 @@ int main (int argc, char **argv)
         return 1;
     }
 
+    printf("Argument check OK!\n");
+
     char *name = argv[1];
 
     /* initialize the libvmi library */
